@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./custom.css">
+</head>
+<body class="bg-yellow-200">
+
+  <div class="relative py-2 text-5xl w-full tracking-wider flex flex-row items-center justify-center bg-red-900 text-white font-semibold fixed">
+    <p class="mr-1">$</p>
+    <p id="total">0</p>
+    <button id="reset-btn" class="absolute right-0 mr-6 w-10 h-10 flex items-center justify-center font-semibold bg-red-500 text-white text-2xl focus:outline-none">X</button>
+  </div>
+
+  <div class="pt-20 pb-6 flex flex-row items-center justify-evenly mx-auto">
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Tacos <br> normales</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Tacos <br> especiales</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+  </div>
+
+  <div class="py-6 flex flex-row items-center justify-evenly mx-auto">
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Consome <br> 1/2 L</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Refrescos</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+  </div>
+
+  <div class="py-6 flex flex-row items-center justify-evenly mx-auto">
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Aguas</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+    <div class="h-32 border-2 border-red-900 text-2xl text-center flex flex-col justify-between items-center">
+      <p class="pb-2 font-semibold upper-case">Caldo <br> $10</p>
+      <form class="flex flex-row items-center h-12">
+        <div value="Decrease Value" class="bg-red-900 text-white disminuir-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">-</div>
+        <input type="number" value="0" class="cantidad w-16 border border-black text-center h-full" />
+        <div value="Increase Value" class="bg-red-900 text-white aumentar-btn px-4 h-full flex flex-row items-center justify-center font-bold text-3xl leading-none">+</div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
