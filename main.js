@@ -3,7 +3,7 @@ let cuentaTotal = 0;
 let productos = [
   {nombre: 'tacoNormal', precio: 14, cantidad: 0, subtotal: 0},
   {nombre: 'tacoEspecial', precio: 16, cantidad: 0, subtotal: 0},
-  {nombre: 'ConsomeMedio', precio: 60, cantidad: 0, subtotal: 0},
+  {nombre: 'ConsomeMedio', precio: 65, cantidad: 0, subtotal: 0},
   {nombre: 'Refrescos', precio: 18, cantidad: 0, subtotal: 0},
   {nombre: 'Aguas', precio: 15, cantidad: 0, subtotal: 0},
   {nombre: 'Caldo10', precio: 10, cantidad: 0, subtotal: 0},
